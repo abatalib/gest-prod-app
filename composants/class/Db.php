@@ -3,10 +3,10 @@
 class Db
 {
     private static $bdd;
-    private static $strCon = 'mysql:host=localhost; dbname=db_shop; charset=utf8';
-//    private static $strCon = 'mysql:host=34.140.29.230:8081; dbname=SHOP; charset=utf8';
+//    private static $strCon = 'mysql:host=localhost; dbname=db_shop; charset=utf8';
+    private static $strCon = 'mysql:host=34.95.14.134:8081; dbname=SHOP; charset=utf8';
     private static $user = 'root';
-    private static $pwd = '';
+    private static $pwd = 'password';
     private static $options = [
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ
